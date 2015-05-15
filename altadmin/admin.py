@@ -1,3 +1,11 @@
-from django.contrib import admin
+class AltAdmin(object):
 
-# Register your models here.
+    @property
+    def urls(self):
+        pass
+
+
+
+alt_admin = AltAdmin()
+
+
